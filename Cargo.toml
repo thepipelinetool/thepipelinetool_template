@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "my_dag"
+]
+resolver = "2"
