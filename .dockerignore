@@ -1,0 +1,7 @@
+.gitignore
+target/
+.devcontainer/
+Cargo.lock
+docker-compose.yml
+README.md
+*.Dockerfile
