@@ -4,7 +4,7 @@ WORKDIR /app
 COPY . .
 RUN cargo install --path my_dag --bins --root .
 
-FROM ghcr.io/thepipelinetool/thepipelinetool-server-dev:latest
+FROM ghcr.io/thepipelinetool/server:latest
 WORKDIR /server
 COPY --from=builder /app/bin/ /server/bin/
 
