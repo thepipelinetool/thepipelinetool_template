@@ -19,8 +19,16 @@ A template project for [thepipelinetool](https://github.com/thepipelinetool/thep
 cargo run --bin my_dag -- run in_memory
 ```
 
-## Deployment
-Visit [thepipelinetool_server](https://github.com/thepipelinetool/thepipelinetool_server) for deployment information
+## Running on Docker
+```
+docker compose build
+```
+```
+docker compose up -d
+```
+
+## Documentation
+Visit [thepipelinetool](https://github.com/thepipelinetool/thepipelinetool) for documentation
 
 ## License
 AGPLv3
